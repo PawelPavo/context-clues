@@ -2,3 +2,6 @@
     color: darkorange;
     text-transform: uppercase;
 }
+h3:hover {
+    color: black;
+}
