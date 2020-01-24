@@ -7,7 +7,7 @@ var weapons = ['Nuke', 'Fork', 'Toothpick', 'Shard of glass', 'Sponge', 'Towel',
 for (var i = 1; i < 101; i++) {
     var h3 = $('<h3 class="accused">Accusation ' + i + '</h3>');
     $('body').append(h3);
-    $(h3).click(accuse(i))
+    $(h3).click(accuse(i)) //invoking the closure function for i
 }
 
 //Accusation function with closure
